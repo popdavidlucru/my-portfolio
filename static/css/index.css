@@ -26,6 +26,7 @@ p {
     flex-direction: column;
     justify-content: center; /*centers horizontally*/
     align-items: center; /*centers vertically*/
+    gap: 10px;
 }
 
 img {
