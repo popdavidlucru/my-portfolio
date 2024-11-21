@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: lightcoral; /* Light blue background */
+    background-color: black; /* Light blue background */
+    background-blend-mode: lighten;
     color: #333; /* Dark gray text */
 }
 
@@ -27,10 +28,23 @@ p {
     justify-content: center; /*centers horizontally*/
     align-items: center; /*centers vertically*/
     gap: 10px;
+    margin-left: 20px;
 }
 
-img {
-    max-width: 80%;
+.image-hover {
+    max-width: 30%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 20px;
+    border: 3px solid white;
+    transition: all 0.5s ease;
+    filter: brightness(0.5);
+}
+
+.image-hover:hover {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+    filter: brightness(1.5);
 }
