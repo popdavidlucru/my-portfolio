@@ -8,18 +8,19 @@ body {
     color: #333; /* Dark gray text */
 }
 
-/* Style the main heading */
-h1 {
+.text-hover:hover {
     text-align: center;
-    margin-top: 20%;
-    color: #2c3e50; /* A deeper shade of blue-gray */
-    font-size: 2.5rem;
+    color: coral;
+    font-size: 3.0rem;
+    transition: all 0.5s ease;
 }
 
-p {
+.text-hover {
     text-align: center;
-    color: #2c3e50;
-    font-size: medium;
+    margin-top: 20%;
+    color: #1a3959;
+    font-size: 2.5rem;
+    transition: all 0.5s ease;
 }
 
 .container {
@@ -41,7 +42,7 @@ p {
 }
 
 .image-hover:hover {
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
     border-radius: 20px;
     border: 2px solid white;
