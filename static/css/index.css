@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: center; /*centers horizontally*/
     align-items: center; /*centers vertically*/
-    gap: 10px;
+    gap: 20px;
     margin-left: 20px;
 }
 
